@@ -6,6 +6,5 @@ resource "aws_instance" "web" {
 
   tags = {
     Name = "HelloWorld"
-    Proprio = var.proprio
   }
 }
